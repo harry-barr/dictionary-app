@@ -81,17 +81,38 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 50px;
 }
 
 .word-container h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
-.word-container p {
+.description-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.description-container li {
   max-width: 600px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: left;
+}
+
+.listen-btn {
+  padding: 25px;
+  border-radius: 45%;
+  border: none;
+  cursor: pointer;
+}
+.fa-volume-high {
+  font-size: 30px;
+  color: #138fe1;
+}
+.listen-btn:hover,
+.fa-volume-high:hover {
+  color: #ef0f0f;
 }
